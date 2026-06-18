@@ -54,13 +54,11 @@ export function isOverdue(dueDate) {
   return new Date(dueDate) < new Date();
 }
 
+const rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+
 /** Human-friendly relative due-date label. */
 export function dueDateLabel(dueDate) {
   if (!dueDate) return '';
-  const due  = new Date(dueDate);
-  const days = Math.round((due - Date.now()) / 86_400_000);
-  if (days < 0)  return `${Math.abs(days)}d overdue`;
-  if (days === 0) return 'Due today';
-  if (days === 1) return 'Due tomorrow';
-  return `Due in ${days}d`;
+  const days = Math.round((new Date(dueDate) - Date.now()) / 86_400_000);
+  return days < 0 ? `${Math.abs(days)}d overdue` : rtf.format(days, 'day');
 }
