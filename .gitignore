@@ -1,0 +1,19 @@
+# Arduino build output
+firmware/**/*.bin
+firmware/**/*.elf
+firmware/**/*.hex
+firmware/**/*.map
+
+# Cloudflare / Wrangler
+proxy/.wrangler/
+proxy/node_modules/
+proxy/dist/
+
+# App
+app/node_modules/
+
+# Editor
+.DS_Store
+.vscode/
+*.swp
+*~

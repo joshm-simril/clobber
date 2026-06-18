@@ -1,0 +1,14 @@
+name            = "clobber-proxy"
+main            = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Secrets are NOT stored here — set them via:
+#   npx wrangler secret put SPYDUS_BASE_URL
+#   npx wrangler secret put ACCOUNTS
+#
+# ACCOUNTS format: [{"name":"Alice","cardNumber":"...","pin":"..."},...]
+#
+# Never commit credentials to this file or to the repo.
+
+[observability]
+enabled = true
