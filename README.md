@@ -11,6 +11,32 @@ No auto-renew. No surprises.
 
 ---
 
+## The itch
+
+Our kids love reading — genuinely, voraciously, wonderfully. We can't financially
+keep up with them and we don't want to. We'd rather they learn to love their local
+library, and for the most part they do.
+
+The problem is that a library book on loan is a book that needs to come *back*.
+Three weeks after Johnny read it, it's under his bed, or in his school bag, or
+in the cloakroom, or the TV room, or buried under the pile of unopened post in the
+kitchen. The hunt is real, it's stressful, and — if we're honest — it's exactly
+the kind of friction that quietly discourages us from visiting the library as
+often as we'd like.
+
+Clobber is the fix. A bookmark that beeps.
+
+Not a Tile. Not an AirTag. You don't need to triangulate the book's position or
+map it into a 3D floor plan of your house. You just need it to **beep very
+loudly** so you can follow your ears through the debris of a child's bedroom
+until you find it. That's it. That's the whole product.
+
+The reconciliation piece is the bonus: open the app before a library trip, see
+immediately which books are still out, which are due soon, and which have already
+been returned — without asking anyone to remember anything.
+
+---
+
 ## How it works
 
 **Tag** (bookmark): BLE peripheral that advertises `CLB-<isbn-suffix>`, responds
